@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessSpecifiers", "AccessS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplimentMultipleInterfaceWithSameMethodName", "ImplimentMultipleInterfaceWithSameMethodName\ImplimentMultipleInterfaceWithSameMethodName.csproj", "{4C22CBC2-DFC8-461F-8D37-BA830FC49772}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{B1B57A9F-6692-4E80-AA8D-5A0C3355EB66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C22CBC2-DFC8-461F-8D37-BA830FC49772} = {B1B57A9F-6692-4E80-AA8D-5A0C3355EB66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B209E48E-6D47-4437-845F-8E469E79F495}

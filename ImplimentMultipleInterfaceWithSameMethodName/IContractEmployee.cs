@@ -7,5 +7,6 @@ namespace ImplimentMultipleInterfaceWithSameMethodName
     interface IContractEmployee
     {
         string Salary();
+        public static string deepak;
     }
 }

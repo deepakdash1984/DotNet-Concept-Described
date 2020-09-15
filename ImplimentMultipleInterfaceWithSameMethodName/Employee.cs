@@ -10,7 +10,10 @@ namespace ImplimentMultipleInterfaceWithSameMethodName
         string IPermanentEmployee.Salary()
         {
             return "PermanentEmployee Salary";
+           
         }
+
+
 
         string IContractEmployee.Salary()
         {

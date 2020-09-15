@@ -11,9 +11,7 @@ namespace ImplimentMultipleInterfaceWithSameMethodName
             Console.WriteLine(contractEmployee.Salary()); 
 
             IPermanentEmployee permanentEmployee = new Employee();
-            Console.WriteLine(permanentEmployee.Salary());
-
-
+            Console.WriteLine(permanentEmployee.Salary());            
 
             Console.ReadLine();
 
