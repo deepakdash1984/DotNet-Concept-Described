@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplimentMultipleInterfaceW
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{B1B57A9F-6692-4E80-AA8D-5A0C3355EB66}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diffrences", "Diffrences", "{92BA162F-FFD7-4577-B8C2-8CA0536D9C71}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,7 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{8B632FC0-7373-4DA6-BA27-C2015B8A7E37} = {92BA162F-FFD7-4577-B8C2-8CA0536D9C71}
 		{4C22CBC2-DFC8-461F-8D37-BA830FC49772} = {B1B57A9F-6692-4E80-AA8D-5A0C3355EB66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
