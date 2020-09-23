@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Indexer", "Indexer\Indexer.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccessSpecifiers", "AccessSpecifiers\AccessSpecifiers.csproj", "{16F3ED7B-AB2E-4E28-85AC-6B3392104760}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplimentMultipleInterfaceWithSameMethodName", "ImplimentMultipleInterfaceWithSameMethodName\ImplimentMultipleInterfaceWithSameMethodName.csproj", "{4C22CBC2-DFC8-461F-8D37-BA830FC49772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplimentMultipleInterfaceWithSameMethodName", "ImplimentMultipleInterfaceWithSameMethodName\ImplimentMultipleInterfaceWithSameMethodName.csproj", "{4C22CBC2-DFC8-461F-8D37-BA830FC49772}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface", "Interface", "{B1B57A9F-6692-4E80-AA8D-5A0C3355EB66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticFieldMemberWithInterface", "StaticFieldMemberWithInterface\StaticFieldMemberWithInterface.csproj", "{FA610F45-CAE3-4B7D-8372-5B9EA789DD94}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diffrences", "Diffrences", "{92BA162F-FFD7-4577-B8C2-8CA0536D9C71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassConstructor", "AbstractClassConstructor\AbstractClassConstructor.csproj", "{CCEA8557-1F71-41AE-8845-E7040A655311}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,13 +37,17 @@ Global
 		{4C22CBC2-DFC8-461F-8D37-BA830FC49772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C22CBC2-DFC8-461F-8D37-BA830FC49772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C22CBC2-DFC8-461F-8D37-BA830FC49772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA610F45-CAE3-4B7D-8372-5B9EA789DD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA610F45-CAE3-4B7D-8372-5B9EA789DD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA610F45-CAE3-4B7D-8372-5B9EA789DD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA610F45-CAE3-4B7D-8372-5B9EA789DD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCEA8557-1F71-41AE-8845-E7040A655311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCEA8557-1F71-41AE-8845-E7040A655311}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCEA8557-1F71-41AE-8845-E7040A655311}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCEA8557-1F71-41AE-8845-E7040A655311}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8B632FC0-7373-4DA6-BA27-C2015B8A7E37} = {92BA162F-FFD7-4577-B8C2-8CA0536D9C71}
-		{4C22CBC2-DFC8-461F-8D37-BA830FC49772} = {B1B57A9F-6692-4E80-AA8D-5A0C3355EB66}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B209E48E-6D47-4437-845F-8E469E79F495}
